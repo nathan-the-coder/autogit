@@ -1,0 +1,16 @@
+{
+  "name": "autogit",
+  "version": "1.0.0",
+  "description": "Autogit is a powerful command-line tool that allows you to effortlessly search for GitHub repositories based on keywords or tags. Simplify your repository discovery process with this user-friendly CLI.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "commander": "^7.4.0",
+    "axios": "^0.24.0"
+  },
+  "author": "Nathaniel Ramos",
+  "license": "MIT"
+}
+
