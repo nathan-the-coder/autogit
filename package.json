@@ -7,7 +7,7 @@
     "start": "node index.js"
   },
   "dependencies": {
-    "commander": "^7.4.0",
+    "commander": "^11.0.0",
     "axios": "^0.24.0"
   },
   "author": "Nathaniel Ramos",
