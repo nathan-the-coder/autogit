@@ -1,0 +1,8 @@
+#!/bin/sh
+
+case "$1" in
+	"-so") node autogit.js search-open $2
+		;;
+	"-sc") node autogit.js search-clone $2
+		;;
+esac

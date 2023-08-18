@@ -1,16 +1,24 @@
 {
-  "name": "autogit",
+  "name": "autogit-cli",
   "version": "1.0.0",
-  "description": "Autogit is a powerful command-line tool that allows you to effortlessly search for GitHub repositories based on keywords or tags. Simplify your repository discovery process with this user-friendly CLI.",
-  "main": "index.js",
+  "type": "module",
+  "description": "Autogit CLI tool for searching and cloning repositories",
+  "main": "autogit.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node autogit.js"
   },
-  "dependencies": {
-    "commander": "^11.0.0",
-    "axios": "^0.24.0"
-  },
+  "keywords": [
+    "cli",
+    "github",
+    "search",
+    "clone"
+  ],
   "author": "Nathaniel Ramos",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "commander": "^8.3.0",
+    "inquirer": "^8.2.0"
+  }
 }
 
