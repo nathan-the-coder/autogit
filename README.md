@@ -14,6 +14,9 @@ git clone https://github.com/nathan-the-coder/autogit-cli
 cd autogit-cli
 ```
 3. Install dependencies:
+```sh
+npm install
+```
 
 ## Usage
 
